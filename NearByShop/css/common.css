@@ -108,7 +108,7 @@ p {
 .navBtn {
     position: absolute;
     right: 15px;
-    top: 355px;
+    top: -45px;
 }
 
 .navBtn img {
@@ -195,7 +195,7 @@ p {
 }
 
 #infoList .listItem {
-    margin: 20px 0;
+    margin: 10px 0;
     overflow: hidden;
 }
 
@@ -209,6 +209,8 @@ p {
     height: 70px;
     font-size: 24px;
     color: #fff;
+    position: absolute;
+    bottom: 0;
 }
 
     #footer p {
