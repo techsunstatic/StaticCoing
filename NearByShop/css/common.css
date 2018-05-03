@@ -1,38 +1,14 @@
 /*初始化样式*/
 
-body,
-ol,
-ul,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-th,
-td,
-dl,
-dd,
-form,
-fieldset,
-legend,
-input,
-textarea,
-select {
+* {
     margin: 0;
     padding: 0
 }
-html{
-    width: 100%;
-    height: 100%;
-}
+
 body {
-    font: 12px"宋体", "Arial Narrow", HELVETICA;
+    font: 16px/1.5 -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", STHeiti, "Microsoft Yahei", Tahoma, Simsun, sans-serif;
     background: #fff;
     -webkit-text-size-adjust: 100%;
-    width: 100%;
-    height: 100%;
 }
 
 a {
@@ -40,10 +16,10 @@ a {
     text-decoration: none
 }
 
-    a:hover {
-        color: #cd0200;
-        text-decoration: underline
-    }
+a:hover {
+    color: #cd0200;
+    text-decoration: underline
+}
 
 em {
     font-style: normal
@@ -73,359 +49,50 @@ p {
     *zoom: 1;
 }
 
-    .clearfix:after {
-        content: "";
-        display: block;
-        height: 0;
-        visibility: hidden;
-        clear: both;
-    }
-
-
-/*map.html*/
-.content{
-    width: 100%;
-    height: 100%;
-}
-#main {
-    position: relative;
-    height: 41%;
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
 }
 
-.header {
-    width: 100%;
-    /*height: 270px;*/
-    height: 24%;
-    overflow: hidden;
+.ushow {
+    display: block;
 }
 
-#map {
-    width: 100%;
-    height: 35%;
-    /*height: 400px;*/
-}
-
-.navBtn {
-    position: absolute;
-    right: 15px;
-    top: -45px;
-}
-
-.navBtn img {
-    width: 110px;
-    height: 110px;
-}
-
-.mapInfo {
-    height: 85%;
-    border-top: solid 1px #ccc;
-}
-
-#infoList {
-    margin: 30px;
-}
-
-#map-png {
-    width: 14px;
-    height: 19px;
-    margin: 3px 0 0 0;
-}
-
-#phone-png {
-    width: 18px;
-    height: 17px;
-    margin: 6px 0 0 0;
-}
-
-#time-png {
-    width: 17px;
-    height: 16px;
-    margin: 5px 0 0 0;
-}
-
-#fangge-png {
-    width: 17px;
-    height: 17px;
-    margin: 5px 0 0 0;
-}
-
-.listItem1{
-    margin-bottom: 5%;
-}
-
-.listItem1 .title-fu {
-    font-size: 24px;
-    font-weight: 550;
-    line-height: 45px;
-    position: relative;
-    text-indent: 1.5rem;
-}
-
-.title-fu::before {
-    position: absolute;
-    left: 8px;
-    top: 12px;
-    content: '';
-    width: 7px;
-    background-color: #00c5f7;
-    height: 22px;
-}
-
-.listItem1 .title-main {
-    font-size: 28px;
-    font-weight: 600;
-    line-height: 45px;
-}
-
-.listItem2 span {
-    font-size: 24px;
-    color: #8c8c8c;
-}
-
-.hen {
-    line-height: 30px;
-    margin: 0 5px;
-}
-
-#infoList li img {
-    float: left;
-}
-
-#infoList .listItem p {
-    float: left;
-    font-size: 24px;
-    line-height: 29px;
-    margin-left: 15px;
-    color: #8c8c8c;
-}
-
-#infoList .listItem {
-    margin: 4% 0;
-    overflow: hidden;
-}
-
-.time-p2 {
-    padding-left: 15px;
-}
-
-#footer {
-    width: 100%;
-    background-color: #0078d7;
-    /*height: 70px;*/
-    height: 15%;
-    font-size: 24px;
-    color: #fff;
-    position: absolute;
-    bottom: 0;
-}
-
-    #footer p {
-        margin: 0 auto;
-        line-height: 70px;
-        text-align: center;
-    }
-
-/*retailStore.html*/
-.retailStore {
-    background-color: #ebebeb;
-}
-
-.mlr20 {
-    margin: 0 20px;
-}
-
-.radioLable {
-    margin: 35px 0 25px 20px;
-    display: inline-block;
-}
-
-.radioInput {
+.uhide {
     display: none;
 }
 
-.radioSpan {
-    background-color: #fff;
-    border: 1px solid #00c0f8;
-    border-radius: 100%;
-    display: inline-block;
-    height: 20px;
-    margin-right: 10px;
-    margin-top: -6px;
-    vertical-align: middle;
-    width: 20px;
-    line-height: 1;
-}
-
-.radioInput:checked + .radioSpan:after {
-    background-color: #00c0f8;
-    border-radius: 100%;
-    content: "";
-    display: inline-block;
-    height: 16px;
-    margin: 2px;
-    width: 16px;
-}
-
-.radioInput:checked {
-    border-radius: 0;
-}
-
-.radioTxt {
-    font-size: 24px;
-    color: #2c2c2d;
-    font-weight: 550;
-}
-
-#main2 {
-    padding: 10px 35px;
-}
-
-.searchBox {
-    overflow: hidden;
-    margin: 30px 0;
-}
-
-.searchBox input {
-    width: 83%;
-    height: 55px;
+.fl{
     float: left;
-    border: none;
-    font-size: 24px;
-    padding: 5px;
 }
 
-.searchBtn {
-    width: 80px;
-    height: 65px;
-    float: left;
-    background-color: #0074cc;
-    text-align: center;
+.fr{
+    float: right;
 }
 
-.searchBtn img {
-    width: 35px;
-    height: 35px;
-    margin: 10px 0 0 0;
-}
+/*modal*/
 
-
-#card {
-    background-color: #fff;
-}
-
-.listRa1 {
-    height: 90px;
-    position: relative;
-}
-
-.line {
-    border-bottom: solid 1px #e4e4e4;
-}
-
-.card-l {
-    width: 49%;
-    float: left;
+.zhezhao {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    filter: alpha(opacity=80);
+    width: 100%;
     height: 100%;
+    z-index: 100;
+}
+
+.btn-blue {
+    width: 240px;
+    height: 50px;
+    font-size: 26px;
     text-align: center;
-    box-shadow: -3px -3px 10px #e3f5fc inset;
-}
-
-.card-r {
-    width: 49%;
-    float: left;
-    height: 100%;
-    text-align: center;
-}
-
-.tabCom img {
-    width: 25px;
-    height: 25px;
-    margin: -12px 0 0 0;
-}
-
-.tabCom span {
-    font-size: 20px;
-    line-height: 90px;
-}
-
-.listRa2 {
-    height: 95px;
-    font-size: 24px;
-    line-height: 95px;
-    color: #0e0e0e;
-}
-
-.store-name {
-    font-size: 28px;
-    font-weight: 600;
-    margin: 0 0 0 20px;
-}
-
-.position {
-    overflow: hidden;
-    margin: 0 0 20px 20px;
-}
-
-.position p {
-    font-size: 20px;
-    color: #666;
-    width: 80%;
-    float: left;
-    line-height: 35px;
-}
-
-.distance {
-    width: 95px;
-    height: 35px;
-    float: left;
-    background-color: #e4fbff;
-    border-radius: 5px;
-}
-
-.distance img {
-    width: 16px;
-    height: 20px;
-    margin: 0 0 7px 5px;
-}
-
-.distance span {
-    font-size: 20px;
-    color: #77bdfe;
-    line-height: 35px;
-    font-weight: 550;
-}
-
-.active {
-    position: absolute;
-    top: -12px;
-    left: 49%;
-    content: "";
-    background-color: #fff;
-    width: 51%;
-}
-
-    .active span {
-        color: #00bff8;
-    }
-
-.active::before {
-    position: absolute;
-    top: 90px;
-    left: 37.5%;
-    content: "";
-    border-bottom: solid #00c0f8 2px;
-    width: 95px;
-    height: 11px;
-    z-index: 2;
-}
-
-.active::after {
-    position: absolute;
-    top: 90px;
-    left: 32%;
-    content: "";
-    border-bottom: solid #d9f8ff 2px;
-    width: 125px;
-    height: 11px;
-    z-index: 1;
+    margin: 0 auto;
+    background-color: #00a0e8;
+    line-height: 50px;
+    color: #fff;
 }

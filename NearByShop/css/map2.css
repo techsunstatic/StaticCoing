@@ -1,0 +1,134 @@
+ html,
+ body {
+     height: 100% !important;
+ }
+
+ #main {
+     position: relative;
+     height: 340px;
+ }
+
+ .header {
+     width: 100%;
+     height: 300px;
+ }
+
+ #map2 {
+     width: 100%;
+     height: calc(100% - 300px - 340px);
+ }
+
+ .navBtn {
+     position: absolute;
+     right: 15px;
+     top: -47px;
+ }
+
+ .navBtn img {
+     width: 110px;
+     height: 110px;
+ }
+
+ .mapInfo {
+     border-top: solid 1px #ccc;
+ }
+
+
+ #map-png {
+     width: 18px;
+     height: 23px;
+     margin: 2px 0 0 0;
+ }
+
+ #phone-png {
+     width: 22px;
+     height: 21px;
+     margin: 6px 0 0 0;
+ }
+
+ #echars-png {
+     width: 25px;
+     height: 33px;
+     margin: 9px 15px 9px 10px;
+ }
+
+ .listItem1 {
+     margin: 30px 0 0 20px;
+ }
+
+ .listItem1 .title-fu {
+     font-size: 24px;
+     font-weight: 550;
+     line-height: 45px;
+     position: relative;
+     text-indent: 1.5rem;
+ }
+
+ .title-fu::before {
+     position: absolute;
+     left: 8px;
+     top: 12px;
+     content: '';
+     width: 7px;
+     background-color: #00c5f7;
+     height: 22px;
+ }
+
+ .listItem1 .title-main {
+     font-size: 28px;
+     font-weight: 600;
+     line-height: 45px;
+ }
+
+ .listItem2 span {
+     font-size: 24px;
+     color: #8c8c8c;
+ }
+
+ .listItem4-map2 {
+     width: 180px;
+     height: 50px;
+     border: solid #ddd 1px;
+     margin: 28px 0 0 20px !important;
+ }
+
+ .listItem4-map2 span {
+     color: #666;
+     line-height: 50px;
+     font-size: 24px;
+ }
+
+ .hen {
+     line-height: 30px; 
+ }
+
+
+ #infoList li img {
+     float: left;
+ }
+
+ #infoList .listItem p {
+     float: left;
+    font-size: 24px;
+    line-height: 29px;
+    margin-left: 5px;
+    color: #666;
+ }
+
+ #infoList .listItem {
+     margin: 10px 0 0 20px;
+ }
+
+ .time-p2 {
+     padding-left: 20px;
+ }
+
+ #footer {
+     margin-top: 31px;
+     width: 100%;
+     background-color: #0078d7;
+     text-align: center;
+     font-size: 26px;
+     color: #fff;
+     padding: 15px 0;
+ }

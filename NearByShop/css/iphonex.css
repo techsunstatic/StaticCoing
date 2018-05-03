@@ -1,0 +1,34 @@
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+
+    /*增加底部适配层*/
+    .iphonx {
+        padding-bottom: 34px;
+    }
+    .iphonx:after {
+
+        content: '';
+
+        z-index: 9998;
+
+        position: fixed;
+
+        left: 0;
+
+        bottom: -1px;
+
+        width: 100%;
+
+        height: 34px;
+
+        background: #f7f7f8;
+    }
+    /*针对ihonex重新计算高度*/
+    #map {
+        width: 100%;
+        height: calc(100% - 300px - 365px - 34px);
+    }
+    #map2 {
+        width: 100%;
+        height: calc(100% - 300px - 340px - 34px);
+    }
+}

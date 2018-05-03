@@ -1,0 +1,271 @@
+.retailStore {
+    background-color: #ebebeb;
+}
+
+.mlr20 {
+    margin: 0 20px;
+}
+
+.radioLable {
+    margin: 35px 0 25px 20px;
+    display: inline-block;
+}
+
+.radioInput {
+    display: none;
+}
+
+.radioSpan {
+    background-color: #fff;
+    border: 1px solid #00c0f8;
+    border-radius: 100%;
+    display: inline-block;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: -11px;
+    vertical-align: middle;
+    width: 20px;
+    line-height: 1;
+}
+
+.radioInput:checked+.radioSpan:after {
+    background-color: #00c0f8;
+    border-radius: 100%;
+    content: "";
+    display: inline-block;
+    height: 16px;
+    margin: 2px;
+    width: 16px;
+}
+
+.radioInput:checked {
+    border-radius: 0;
+}
+
+.radioTxt {
+    font-size: 24px;
+    color: #2c2c2d;
+    font-weight: 550;
+}
+
+#main2 {
+    padding: 10px 35px;
+}
+
+.searchBox {
+    overflow: hidden;
+    margin: 30px 0;
+}
+
+.searchBox input {
+    width: 83%;
+    height: 55px;
+    float: left;
+    border: none;
+    font-size: 24px;
+    padding: 5px;
+}
+
+.searchBtn {
+    width: 80px;
+    height: 65px;
+    float: left;
+    background-color: #0074cc;
+    text-align: center;
+}
+
+.searchBtn img {
+    width: 35px;
+    height: 35px;
+    margin: 15px 0 0 0;
+}
+
+#card,#card2,#card3{
+    background-color: #fff;
+}
+
+.listRa1 {
+    height: 90px;
+    position: relative;
+}
+
+.line {
+    border-bottom: solid 1px #e4e4e4;
+}
+
+.card-l {
+    width: 49%;
+    float: left;
+    height: 100%;
+    text-align: center;
+}
+
+.cardLBoxShadow {
+    -webkit-box-shadow: -3px -3px 10px #e3f5fc inset;
+    box-shadow: -3px -3px 10px #e3f5fc inset;
+}
+
+.cardRBoxShadow {
+    -webkit-box-shadow: 3px -3px 10px #e3f5fc inset;
+    box-shadow: 3px -3px 10px #e3f5fc inset;
+}
+
+.card-r {
+    width: 49%;
+    float: right;
+    height: 100%;
+    text-align: center;
+}
+
+.card-r img {
+    width: 20px !important;
+}
+
+.tabCom img {
+    width: 25px;
+    height: 25px;
+    margin: -12px 0 0 0;
+}
+
+.tabCom span {
+    font-size: 20px;
+    line-height: 90px;
+    margin-left: 3px;
+}
+
+.listRa2 {
+    height: 95px;
+    font-size: 24px;
+    line-height: 95px;
+    color: #0e0e0e;
+}
+
+.store-name {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0 0 0 20px;
+}
+
+.position {
+    overflow: hidden;
+    margin: 0 0 20px 20px;
+}
+
+.position p {
+    font-size: 20px;
+    color: #666;
+    width: 80%;
+    float: left;
+    line-height: 35px;
+}
+
+.distance {
+    width: 95px;
+    height: 35px;
+    float: left;
+    background-color: #e4fbff;
+    border-radius: 5px;
+}
+
+.distance img {
+    width: 16px;
+    height: 20px;
+    margin: 0 0 7px 5px;
+}
+
+.distance span {
+    font-size: 20px;
+    color: #77bdfe;
+    line-height: 35px;
+    font-weight: 550;
+}
+
+.active-tabl {
+    position: absolute;
+    top: -12px;
+    left: 0;
+    content: "";
+    background-color: #fff;
+    width: 51%;
+}
+
+.active-tabl,
+.active-tab2 span {
+    color: #00bff8;
+}
+
+.active-tabl::before {
+    position: absolute;
+    top: 90px;
+    left: 37.5%;
+    content: "";
+    border-bottom: solid #00c0f8 2px;
+    width: 95px;
+    height: 11px;
+    z-index: 2;
+}
+
+.active-tabl::after {
+    position: absolute;
+    top: 90px;
+    left: 32%;
+    content: "";
+    border-bottom: solid #d9f8ff 2px;
+    width: 125px;
+    height: 11px;
+    z-index: 1;
+}
+
+.active-tab2 {
+    position: absolute;
+    top: -12px;
+    left: 49%;
+    content: "";
+    background-color: #fff;
+    width: 51%;
+}
+
+.active-tab2::before {
+    position: absolute;
+    top: 90px;
+    left: 37.5%;
+    content: "";
+    border-bottom: solid #00c0f8 2px;
+    width: 95px;
+    height: 11px;
+    z-index: 2;
+}
+
+.active-tab2::after {
+    position: absolute;
+    top: 90px;
+    left: 32%;
+    content: "";
+    border-bottom: solid #d9f8ff 2px;
+    width: 125px;
+    height: 11px;
+    z-index: 1;
+}
+/*modal*/
+.modal-content {
+    background-color: #fff;
+    width: 400px;
+    height: 480px;
+    margin: 45% auto;
+}
+
+.modal-content img {
+    width: 240px;
+    height: 100px;
+    margin: 90px 80px 0;
+}
+
+.modal-txt {
+    margin: 60px 0;
+    text-align: center;
+}
+
+.modal-txt p {
+    font-size: 26px;
+    color: #999;
+}
